@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1576708678584" clover="3.2.0">
-  <project timestamp="1576708678584" name="All files">
-    <metrics statements="48" coveredstatements="36" conditionals="9" coveredconditionals="3" methods="16" coveredmethods="11" elements="73" coveredelements="50" complexity="0" loc="48" ncloc="48" packages="5" files="6" classes="6"/>
+<coverage generated="1576708758592" clover="3.2.0">
+  <project timestamp="1576708758592" name="All files">
+    <metrics statements="48" coveredstatements="38" conditionals="9" coveredconditionals="3" methods="16" coveredmethods="13" elements="73" coveredelements="54" complexity="0" loc="48" ncloc="48" packages="5" files="6" classes="6"/>
     <package name="lib">
       <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="app.js" path="/Users/Tess/alchemy/career-track/week-03/aggregations-lab/lib/app.js">
@@ -46,9 +46,9 @@
       </file>
     </package>
     <package name="lib.routes">
-      <metrics statements="14" coveredstatements="12" conditionals="2" coveredconditionals="2" methods="10" coveredmethods="8"/>
+      <metrics statements="14" coveredstatements="14" conditionals="2" coveredconditionals="2" methods="10" coveredmethods="10"/>
       <file name="avocados.js" path="/Users/Tess/alchemy/career-track/week-03/aggregations-lab/lib/routes/avocados.js">
-        <metrics statements="14" coveredstatements="12" conditionals="2" coveredconditionals="2" methods="10" coveredmethods="8"/>
+        <metrics statements="14" coveredstatements="14" conditionals="2" coveredconditionals="2" methods="10" coveredmethods="10"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
@@ -61,8 +61,8 @@
         <line num="40" count="1" type="stmt"/>
         <line num="45" count="1" type="stmt"/>
         <line num="47" count="1" type="stmt"/>
-        <line num="52" count="0" type="stmt"/>
-        <line num="54" count="0" type="stmt"/>
+        <line num="52" count="1" type="stmt"/>
+        <line num="54" count="1" type="stmt"/>
       </file>
     </package>
     <package name="lib.utils">

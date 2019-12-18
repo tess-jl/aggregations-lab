@@ -95,5 +95,19 @@ describe('app routes', () => {
       });
   });
 
+  it('deletes an avocado', () => {
+    return request(app)
+      .delete(`/api/v1/avocados/${avocado.id}`)
+      .then(res => {
+        expect(res.body).toEqual({
+          _id: avocado.id,
+          date: dateValue.toISOString(),
+          averagePrice: 3.00,
+          region: 'Portland Oregon',
+          __v: 0
+        });
+      });
+  });
+
 
 });
