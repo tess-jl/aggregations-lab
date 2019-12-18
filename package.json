@@ -4,8 +4,13 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-      "start": "node server.js",
+    "test": "jest --coverage --verbose",
+    "test:watch": "npm run test -- --watchAll",
+    "start": "node server.js",
     "start:watch": "nodemon server.js"
+  },
+  "jest": {
+    "testEnvironment": "node"
   },
   "keywords": [],
   "author": "",
