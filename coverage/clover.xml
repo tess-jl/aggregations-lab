@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1576708323720" clover="3.2.0">
-  <project timestamp="1576708323720" name="All files">
-    <metrics statements="48" coveredstatements="29" conditionals="9" coveredconditionals="1" methods="16" coveredmethods="5" elements="73" coveredelements="35" complexity="0" loc="48" ncloc="48" packages="5" files="6" classes="6"/>
+<coverage generated="1576708492834" clover="3.2.0">
+  <project timestamp="1576708492834" name="All files">
+    <metrics statements="48" coveredstatements="31" conditionals="9" coveredconditionals="1" methods="16" coveredmethods="7" elements="73" coveredelements="39" complexity="0" loc="48" ncloc="48" packages="5" files="6" classes="6"/>
     <package name="lib">
       <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="app.js" path="/Users/Tess/alchemy/career-track/week-03/aggregations-lab/lib/app.js">
@@ -46,16 +46,16 @@
       </file>
     </package>
     <package name="lib.routes">
-      <metrics statements="14" coveredstatements="5" conditionals="2" coveredconditionals="0" methods="10" coveredmethods="2"/>
+      <metrics statements="14" coveredstatements="7" conditionals="2" coveredconditionals="0" methods="10" coveredmethods="4"/>
       <file name="avocados.js" path="/Users/Tess/alchemy/career-track/week-03/aggregations-lab/lib/routes/avocados.js">
-        <metrics statements="14" coveredstatements="5" conditionals="2" coveredconditionals="0" methods="10" coveredmethods="2"/>
+        <metrics statements="14" coveredstatements="7" conditionals="2" coveredconditionals="0" methods="10" coveredmethods="4"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
         <line num="6" count="1" type="stmt"/>
         <line num="8" count="1" type="stmt"/>
-        <line num="28" count="0" type="stmt"/>
-        <line num="30" count="0" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
         <line num="35" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="36" count="0" type="stmt"/>
         <line num="40" count="0" type="stmt"/>
