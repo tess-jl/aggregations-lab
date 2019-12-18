@@ -64,5 +64,21 @@ describe('app routes', () => {
       });
   });
 
+  it('get all avocado douments', () => {
+    return request(app)
+      .get('/api/v1/avocados')
+      .then(res => {
+        expect(res.body).toEqual([
+          {
+            _id: avocado.id,
+            date: dateValue.toISOString(),
+            averagePrice: 3.00,
+            region: 'Portland Oregon',
+            __v: 0
+          }
+        ]);
+      });
+  });
+
 
 });
