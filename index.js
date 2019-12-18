@@ -1,13 +1,13 @@
-const mongoose = require('mongoose');
-const moment = require('moment');
-const csv = require('csvtojson');
+// const mongoose = require('mongoose');
+// const moment = require('moment');
+// const csv = require('csvtojson');
 
-mongoose.connect('mongodb://localhost:27017/avocados', {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-  useFindAndModify: false,
-  useCreateIndex: true
-});
+// mongoose.connect('mongodb://localhost:27017/avocados', {
+//   useNewUrlParser: true,
+//   useUnifiedTopology: true,
+//   useFindAndModify: false,
+//   useCreateIndex: true
+// });
 
 // const schema = new mongoose.Schema({
 //   date: Date,
