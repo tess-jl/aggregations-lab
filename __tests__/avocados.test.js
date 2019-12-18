@@ -80,5 +80,20 @@ describe('app routes', () => {
       });
   });
 
+  it('updates an avocado document', () => {
+    return request(app)
+      .patch(`/api/v1/avocados/${avocado.id}`)
+      .send({ averagePrice: 30.00 })
+      .then(res => {
+        expect(res.body).toEqual({
+          _id: avocado.id,
+          date: dateValue.toISOString(),
+          averagePrice: 30.00,
+          region: 'Portland Oregon',
+          __v: 0
+        });
+      });
+  });
+
 
 });
